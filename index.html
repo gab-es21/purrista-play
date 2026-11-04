@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no"
+    />
+    <title>Purrista</title>
+    <!-- The YouTube Playables SDK must load before any game code. -->
+    <script src="https://www.youtube.com/game_api/v1"></script>
+    <script type="module" crossorigin src="./assets/index-C0Ge1jgA.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BTG-HeB-.css">
+  </head>
+  <body data-state="loading">
+    <!-- The cover art is the loading screen (owner); the plain colour shows until it loads. -->
+    <div
+      id="loading"
+      class="loading"
+      role="status"
+      aria-live="polite"
+      style="background-image: url('./images/cover.jpg')"
+    >
+      <div class="loading__title">Purrista</div>
+      <div class="loading__text">Loading…</div>
+    </div>
+    <div id="app"></div>
+  </body>
+</html>
